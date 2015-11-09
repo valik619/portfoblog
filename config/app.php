@@ -145,6 +145,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Pingpong\Modules\ModulesServiceProvider::class,
+        Anakadote\ImageManager\ImageManagerServiceProvider::class,
     ],
 
     /*
@@ -193,6 +196,7 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+        'Module'    => Pingpong\Modules\Facades\Module::class,
 
     ],
 
